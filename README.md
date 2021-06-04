@@ -9,6 +9,16 @@
 * 64-bit Python 3.7 and PyTorch 1.7.1. 
 * Python libraries: `pip install click requests tqdm pyspng ninja imageio-ffmpeg==0.4.3`.  We use the Anaconda3 2020.11 distribution which installs most of these by default.
 
+## Pretrained pickle
+
+[CIFAR-10](https://drive.google.com/file/d/1z7sNrq_iGXgt3Tzl3NxRTEXHKdw_AzSZ/view?usp=sharing)
+
+[STL-10](https://drive.google.com/file/d/1NWjfBfJDDjT3DyGM2_lB4F815xPNiAKg/view?usp=sharing)
+
+[CelebA](https://drive.google.com/file/d/1nyYxhRKE-kNMFRO5Ijx8N_1KOSX5jh_V/view?usp=sharing)
+
+[LSUN-Church](https://drive.google.com/file/d/1X3yPt__srOuK8pRr0z4GKvtyjnEKYQOU/view?usp=sharing)
+
 
 ## Generating images
 
