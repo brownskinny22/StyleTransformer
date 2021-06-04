@@ -1,4 +1,4 @@
-## StyleTransformer -- Official PyTorch implementation
+## Styleformer -- Official PyTorch implementation
 
 **Transformer based Generative Adversarial Networks with Style Vector**<br>
 
