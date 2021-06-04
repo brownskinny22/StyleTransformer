@@ -82,7 +82,7 @@ python train.py --outdir=~/training-runs --data=~/mydataset.zip --gpus=1 --batch
 * `--g_dict=` it means 'Hidden size' in paper, and it must be match with image resolution.
 * `--num_layers=` it means 'Layers' in paper, and it must be match with image resolution.
 * `--depth=32` it means minimum required depth is 32, described in Section 2 at paper.
-* `--linformer=1` apply informer to Styleformer.
+* `--linformer=1` apply Linformer to Styleformer.
 
 Please refer to [`python train.py --help`](./docs/train-help.txt) for the full list. 
 To train STL-10 dataset with same setting at paper, please fix the starting resolution 8\*8 to 12\*12 at training/networks_Generator.py.
