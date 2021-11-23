@@ -42,7 +42,7 @@ Outputs from the above commands are placed under `out/*.png`, controlled by `--o
 python dataset_tool.py --source=~/downloads/cifar-10-python.tar.gz --dest=~/datasets/cifar10.zip
 ```
 
-**CelebA**: Download the CelebA dataset Aligned&Cropped Images from [CelebA dataset page](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), center crop images as in PGGAN officials repo(https://github.com/tkarras/progressive_growing_of_gans/blob/master/dataset_tool.py) and convert to ZIP archive:
+**CelebA**: Download the CelebA dataset Aligned&Cropped Images from [CelebA dataset page](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), center crop images as in PGGAN officiall repo(https://github.com/tkarras/progressive_growing_of_gans/blob/master/dataset_tool.py) and convert to ZIP archive:
 
 ```.bash
 python dataset_tool.py --source=~/downloads/cifar-10-python.tar.gz --dest=~/datasets/stl10.zip \
