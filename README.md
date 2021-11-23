@@ -14,10 +14,7 @@
 [CIFAR-10](https://drive.google.com/file/d/1z7sNrq_iGXgt3Tzl3NxRTEXHKdw_AzSZ/view?usp=sharing)
 Styleformer-Large with FID 2.82 IS 9.94
 
-[STL-10](https://drive.google.com/file/d/1NWjfBfJDDjT3DyGM2_lB4F815xPNiAKg/view?usp=sharing)
-Styleformer-Medium with FID 20.11 IS 10.16 
-
-[CelebA](https://drive.google.com/file/d/1nyYxhRKE-kNMFRO5Ijx8N_1KOSX5jh_V/view?usp=sharing)
+[CelebA](https://drive.google.com/file/d/1S3p8sC51TEaXEGyHHkcigLAtNC2VWemO/view?usp=sharing)
 Styleformer-Linformer with FID 3.66
 
 [LSUN-Church](https://drive.google.com/file/d/1X3yPt__srOuK8pRr0z4GKvtyjnEKYQOU/view?usp=sharing)
@@ -45,20 +42,12 @@ Outputs from the above commands are placed under `out/*.png`, controlled by `--o
 python dataset_tool.py --source=~/downloads/cifar-10-python.tar.gz --dest=~/datasets/cifar10.zip
 ```
 
-**STL-10**: Download the stl-10 dataset 5k training, 100k unlabeled images from [STL-10 dataset page](https://cs.stanford.edu/~acoates/stl10/) and convert to ZIP archive:
-
-```.bash
-python dataset_tool.py --source=~/downloads/cifar-10-python.tar.gz --dest=~/datasets/stl10.zip \
-    ---width=48 --height=48
-```
-
-**CelebA**: Download the CelebA dataset Aligned&Cropped Images from [CelebA dataset page](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and convert to ZIP archive:
+**CelebA**: Download the CelebA dataset Aligned&Cropped Images from [CelebA dataset page](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), center crop images as in PGGAN officials repo(https://github.com/tkarras/progressive_growing_of_gans/blob/master/dataset_tool.py) and convert to ZIP archive:
 
 ```.bash
 python dataset_tool.py --source=~/downloads/cifar-10-python.tar.gz --dest=~/datasets/stl10.zip \
     ---width=64 --height=64
 ```
-
 
 **LSUN Church**: Download the desired categories(church) from the [LSUN project page](https://www.yf.io/p/lsun/) and convert to ZIP archive:
 
