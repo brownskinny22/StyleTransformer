@@ -15,7 +15,7 @@
 Styleformer-Large with FID 2.82 IS 9.94
 
 [CelebA](https://drive.google.com/file/d/1S3p8sC51TEaXEGyHHkcigLAtNC2VWemO/view?usp=sharing)
-Styleformer-Linformer with FID 3.66
+Styleformer-Linformer with FID 3.36
 
 [LSUN-Church](https://drive.google.com/file/d/1X3yPt__srOuK8pRr0z4GKvtyjnEKYQOU/view?usp=sharing)
 Styleformer-Linformer with FID 7.99
